@@ -338,7 +338,17 @@
     public static void main(String[] args) {
         SwingUtilities.invokeLater(SecureDatabaseApp::new); // 启动Swing应用程序
     }
-    
+###运行效果截图：
+####一、加密数据
+ 
+####二、数据保存到数据库
+ 
+ 
+####三、显示数据库的内容
+ 
+####四、解密
+ 
+   
 ## 注意事项
 
 - 密钥和密码硬编码在代码中，这只是一个演示。在实际应用中，应该更安全地管理和存储密钥。
