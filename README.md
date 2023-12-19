@@ -338,15 +338,18 @@
     public static void main(String[] args) {
         SwingUtilities.invokeLater(SecureDatabaseApp::new); // 启动Swing应用程序
     }
-###运行效果截图：
-####一、加密数据
+### 运行效果截图
+#### 一、加密数据
   <img src=https://github.com/YeJJie/YeJJie/blob/main/%E5%9B%BE%E7%89%872.png>
-####二、数据保存到数据库
+
+#### 二、数据保存到数据库
  <img src=https://github.com/YeJJie/YeJJie/blob/main/%E5%9B%BE%E7%89%873.png>
   <img src=https://github.com/YeJJie/YeJJie/blob/main/%E5%9B%BE%E7%89%874.png>
-####三、显示数据库的内容
+  
+#### 三、显示数据库的内容
   <img src=https://github.com/YeJJie/YeJJie/blob/main/%E5%9B%BE%E7%89%875.png>
-####四、解密
+  
+#### 四、解密
   <img src=https://github.com/YeJJie/YeJJie/blob/main/%E5%9B%BE%E7%89%876.png>
    
 ## 注意事项
