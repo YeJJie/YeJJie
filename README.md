@@ -1,25 +1,3 @@
-package Demo; // 定义包名
-
-import javax.swing.*; // 引入Swing库
-import javax.crypto.Cipher; // 引入加密相关的类
-import javax.crypto.KeyGenerator;
-import javax.crypto.SecretKey;
-import javax.crypto.SecretKeyFactory;
-import javax.crypto.spec.PBEKeySpec;
-import javax.crypto.spec.SecretKeySpec;
-import java.awt.*; // 引入GUI相关的类
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.io.File; // 引入文件操作相关类
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
-import java.security.KeyStore; // 引入密钥库相关的类
-import java.security.spec.KeySpec;
-import java.sql.*; // 引入数据库相关的类
-import java.util.Arrays;
-import java.util.Base64;
-
-public class SecureDatabaseApp extends JFrame { // 定义名为SecureDatabaseApp的类，继承自JFrame类
 
     private JTextField inputText, outputText, decryptedText, inputEncryptedText; // 定义文本框的变量
     private JButton encryptButton, saveButton, decryptButton, showDBButton, decryptInputButton; // 定义按钮的变量
@@ -315,5 +293,4 @@ public class SecureDatabaseApp extends JFrame { // 定义名为SecureDatabaseApp
     public static void main(String[] args) {
         SwingUtilities.invokeLater(SecureDatabaseApp::new); // 启动Swing应用程序
     }
-}
     
