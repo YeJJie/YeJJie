@@ -1,4 +1,15 @@
+# 安全数据库系统
+该系统实现一个安全的数据库系统，对数据库进行数字签名保证完整性，数据加密保证隐秘性。
 
+## 要求
+1．数据库的数据要进行加密；
+2. 对数据库的完整性进行保护；
+3．防止用户根据部分密文明文对，恢复数据库总密钥；
+4．数据采用一个密钥以某种形式衍生子密钥进行加密；
+5．保证密钥的安全性。
+说明：可以采用总密钥，根据hash函数，以及每一个数据的各种属性来产生子密钥。
+
+### 接入代码
     private JTextField inputText, outputText, decryptedText, inputEncryptedText; // 定义文本框的变量
     private JButton encryptButton, saveButton, decryptButton, showDBButton, decryptInputButton; // 定义按钮的变量
     private JTextArea databaseContent; // 定义文本域的变量
