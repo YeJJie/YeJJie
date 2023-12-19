@@ -342,7 +342,7 @@
 ####一、加密数据
  
 ####二、数据保存到数据库
- 
+ <img src=https://github.com/YeJJie/YeJJie/blob/main/%E5%9B%BE%E7%89%873.png>
  
 ####三、显示数据库的内容
  
